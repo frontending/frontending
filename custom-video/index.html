@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom-video</title>
+    <link rel="shortcut icon" href="assets/icon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="video-wrapper">
+            <div class="main-video-white">
+            </div>
+            <div class="main-video-poster">
+            </div>
+            <div class="main-video">
+                <video class="video-tv" src="assets/video/video1.mp4"></video>
+            </div>
+            <div class="main-button">
+            </div>
+            <div class="main-progressbar">
+                <div class="main-progressbar-wrapper">
+                    <input type="range" class="progressbar" value="0" min="0" max="1000" step="1" name="progressbar" id="progressbar">
+                </div>
+            </div>
+            <div class="main-panel">
+                <div class="main-panel-wrapper">
+                    <div class="panel-left">
+                        <img class="playbtn videobtn" src="assets/image/pause.png" alt="play-pause">
+                        <img class="stopbtn videobtn" src="assets/image/stop.png" alt="stop">
+                        <img class="volumebtn videobtn" src="assets/image/volumemedium.png" alt="volume">
+                        <input type="range" class="video-volume" value="60" min="0" max="100" step="1" name="volume" id="volume">
+                    </div>
+                    <div class="panel-right">
+                        <p class="video-time">0:00 / 0:00</p>
+                        <img class="fullscreenbtn videobtn" src="assets/image/fullon.png" alt="fullscreen">
+                        <div class="click-hide videobtn"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="video1 video-select video-active" data-select="v1">
+            </div>
+            <div class="video2 video-select" data-select="v2">
+            </div>
+            <div class="video3 video-select" data-select="v3">
+            </div>
+            <div class="video4 video-select" data-select="v4">
+            </div>
+        </div>
+        <footer>
+            <a href="https://github.com/frontending" target="_blanc"><p>frontending</p></a>
+            <p>2022</p>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
