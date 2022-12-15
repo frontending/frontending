@@ -1,0 +1,414 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1800px;
+    width: 100%;
+    margin: auto;
+    background-color: rgb(228, 228, 228);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1800px;
+    width: 100%;
+    background-color: lightgray;
+}
+
+.header-title-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-title {
+    width: 93%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    flex-shrink: 10;
+    color: #000000;
+}
+
+.header-cart {
+    width: 7%;
+    min-width: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 1;
+}
+
+.header-cart-number {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+}
+
+.top-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 1800px;
+    width: 100%;
+}
+
+.sort-name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex: 0 2 300px;
+    background-color: cadetblue;
+}
+
+.sort-name > p,
+.sort-price > p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+    margin-right: 5px;
+}
+
+.name-direct,
+.price-direct {
+    width: 25px;
+    height: 25px;
+    background-image: url(assets/image/increase.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transform: rotate(180deg);
+    opacity: 0.4;
+    margin: 5px 2px;
+    transition: unset;
+}
+
+.name-reverse,
+.price-reverse {
+    width: 25px;
+    height: 25px;
+    background-image: url(assets/image/increase.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    opacity: 0.4;
+    margin: 5px 2px;
+    transition: unset;
+}
+
+.name-direct:hover,
+.price-direct:hover {
+    cursor: pointer;
+    transform: rotate(175deg);
+}
+
+.name-reverse:hover,
+.price-reverse:hover {
+    cursor: pointer;
+    transform: rotate(355deg);
+}
+
+.sort-price {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex: 0 2 300px;
+    background-color: rgb(39, 176, 180);
+}
+
+.sort-active {
+    opacity: 1;
+}
+
+.search-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex: 0 3 1200px;
+}
+
+.search {
+    width: 100%;
+    height: 35px;
+    padding: 0 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 0 1 400px;
+    padding-top: 20px;
+    background-color: rgb(204, 204, 204);
+}
+
+.aside-option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 250px;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.aside-option > p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 40px;
+    color: #000000;
+}
+
+.aside-option > div {
+    max-width: 200px;
+    width: 100%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    margin: 1px 0;
+}
+
+.option-animal,
+.option-color,
+.option-delivery,
+.option-yes {
+    background-color: rgba(136, 143, 199, 0.3);
+}
+
+.option-animal:hover,
+.option-color:hover,
+.option-delivery:hover,
+.option-yes:hover {
+    cursor: pointer;
+    background-color: rgba(136, 143, 199, 0.7);
+}
+
+.option-active {
+    background-color: rgb(71, 161, 86);
+}
+
+.option-active:hover {
+    background-color: rgba(71, 161, 86, 0.7);
+}
+
+.reset-option,
+.reset-all {
+    background-color: rgba(161, 71, 98, 0.3);
+}
+
+.reset-option:hover,
+.reset-all:hover {
+    cursor: pointer;
+    background-color: rgba(161, 71, 98, 0.7);
+}
+
+.error-message {
+    display: none;
+    flex: 0 2 1400px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+    padding: 50px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex: 0 2 1400px;
+    padding: 20px;
+    background-color: lightgray;
+}
+
+section > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 250px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: rgb(136, 143, 199);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+section > div:hover {
+    cursor: pointer;
+    transform: translate(-1px, -1px);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+section > div:hover > .card-cart {
+    cursor: pointer;
+    transform: translate(-1px, -1px);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+section > div:hover > .card-cart-active {
+    cursor: pointer;
+    transform: translate(-1px, -1px);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.card-title {
+    align-self: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+    margin: 20px 10px 10px 20px;
+}
+
+.card-name {
+    align-self: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    margin: 0 10px 0 20px;
+}
+
+.card-weight,
+.card-color,
+.card-aviable,
+.card-delivery,
+.card-popular,
+.card-price {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    margin: 0 10px 0 25px;
+}
+
+.card-img {
+    width: 80%;
+    height: 200px;
+    background-image: url(assets/image/animals/sheep/цигайская-полутонкорунная.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 5px auto;
+}
+
+.card-cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 80px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    color: #000000;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    background-color: darkgray;
+}
+
+.card-cart-active {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    background-color: rgb(71, 161, 86);
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 20px 0 10px 0;
+    background-color: rgb(204, 204, 204);
+}
+
+footer > a {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    color: #000000;
+    text-decoration: none;
+}
+
+footer > a:hover {
+    text-decoration: underline;
+}
+
+.footer-year {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 34px;
+    color: #000000;
+}
