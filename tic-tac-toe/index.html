@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tic-tac-toe</title>
+    <link rel="shortcut icon" href="assets/icon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="notice-wrapper">
+        <div class="notice">
+            <p class="notice-text"></p>
+            <div class="notice-btn">
+                OK
+            </div>
+        </div>
+    </div>
+    <header>
+        <div class="header-play header-btn">
+            <p class="playstop">Play</p>
+        </div>
+        <div class="header-option header-btn">
+            <p>Options</p>
+        </div>
+        <div class="header-score header-btn">
+            <p>History</p>
+        </div>
+    </header>
+    <main>
+        <div class="game-wrapper">
+            <div class="field-wrapper">
+                <div class="field-row">
+                    <div class="field field1"></div>
+                    <div class="field field2"></div>
+                    <div class="field field3"></div>
+                </div>
+                <div class="field-row">
+                    <div class="field field4"></div>
+                    <div class="field field5"></div>
+                    <div class="field field6"></div>
+                </div>
+                <div class="field-row">
+                    <div class="field field7"></div>
+                    <div class="field field8"></div>
+                    <div class="field field9"></div>
+                </div>
+            </div>
+        </div>
+        <div class="option-wrapper">
+            <div class="option-column">
+                <div class="option-mode opt">
+                    <p class="option-txt">Difficulty:</p>
+                    <div class="option-mode-select">Player vs Player</div>
+                    <div class="option-mode-select option-mode-active">Player vs Computer(Easy)</div>
+                    <div class="option-mode-select">Player vs Computer(Medium)</div>
+                    <div class="option-mode-select">Player vs Computer(Hard)</div>
+                </div>
+                
+            </div>
+            <div class="option-column">
+                <div class="option-first opt">
+                    <p class="option-txt">Player:</p>
+                    <div class="option-first-select option-first-active">Cross</div>
+                    <div class="option-first-select">Circle</div>
+                </div>
+                <div class="option-music opt">
+                    <p class="option-txt">Audio:</p>
+                    <div class="option-music-select option-music-active">Music OFF</div>
+                    <div class="option-music-select">Music ON</div>
+                </div>
+                <div class="option-style opt">
+                    <p class="option-txt">Theme:</p>
+                    <div class="option-style-select option-style-active">Light</div>
+                    <div class="option-style-select">Dark</div>
+                </div>
+            </div>
+        </div>
+        <div class="score-wrapper">
+            <ol class="score-list">
+                <li class="score"></li>
+                <li class="score"></li>
+                <li class="score"></li>
+                <li class="score"></li>
+                <li class="score"></li>
+                <li class="score"></li>
+                <li class="score"></li>
+                <li class="score"></li>
+                <li class="score"></li>
+                <li class="score"></li>
+            </ol>
+        </div>
+    </main>
+    <footer>
+        <a href="https://github.com/frontending" target="_blanc"><p>frontending</p></a>
+        <p>2022</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
