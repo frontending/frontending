@@ -1,30 +1,27 @@
-<div id="header" align="center">
-  <img src="https://media.giphy.com/media/ndM7oIOjaDQOhMKtF3/giphy.gif" width="120"/>
-</div>
-<div id="badges" align="center">
-<img src="https://komarev.com/ghpvc/?username=frontending&style=flat-square&color=blue" width="120" alt=""/>
-</div>
-<h1 align="center">
-  hey there
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
-</h1>
+<h2 align="center">
+Online Zoo
+<a href="https://frontending.github.io/frontending/online-zoo/pages/main/index.html">[link]</a>
+</h2> 
 <div align="center">
-  <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="600" height="300"/>
+  <img src="https://imgur.com/oPtMpWa.png" width="600"/>
 </div>
 
+***
 
+## Online Zoo
+> layout example
 
-<!--
-**frontending/frontending** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+implemented 2 pages of the site with a figma layout
 
-Here are some ideas to get you started:
+### Getting started
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+click the [--> LINK to main page <--](https://frontending.github.io/frontending/online-zoo/pages/main/index.html) to open main page     
+click the [--> LINK to donate page <--](https://frontending.github.io/frontending/online-zoo/pages/donate/index.html) to open donate page
+
+### Developing
+
+HTML, CSS, JavaScript, ES6
+
+### Features
+
+adaptive design, burger menu, pop-up, carousel of cards, carousel with scrollbar, email verification, custom radio buttons
