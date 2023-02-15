@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>songbird</title>
+    <link rel="shortcut icon" href="../../assets/icon/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a class="logo" href="../main/index.html">
+            <p class="logo-txt-big">Quiz Master</p>
+            <p class="logo-txt-small">Let's play have fun</p>
+        </a>
+    </header>
+    <main>
+        <div class="main-title">
+            <p class="main-stage">Stage <span class="main-stage-current">1</span> of 6</p>
+            <p class="main-score">Score: <span class="main-score-current">0</span></p>
+        </div>
+        <div class="main-question">
+            <p class="main-question-txt">Если вы видите это сообщение, значит игра сломалась :(</p>
+        </div>
+        <div class="main-audio">
+            <div class="main-audio-sound">
+                <div class="sound-play">
+                </div>
+                <input type="range" class="sound-progressbar" value="0" min="0" max="1000" step="1" name="sound-progressbar" id="sound-progressbar">
+            </div>
+            <div class="main-audio-volume">
+                <div class="audio-play">
+                </div>
+                <input type="range" class="audio-volume" value="60" min="0" max="100" step="1" name="audio-volume" id="audio-volume">
+                <p class="audio-listen">let's listen and choose</p>
+                <p class="audio-time">0:00 / 0:00</p>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="main-answer">
+                <p class="answer-name">***</p>
+                <div class="answer-img">
+                </div>
+                <div class="answer-play-wrapper">
+                    <div class="answer-play">
+                    </div>
+                    <input type="range" class="answer-progressbar" value="0" min="0" max="1000" step="1" name="answer-progressbar" id="answer-progressbar">
+                </div>
+                <p class="answer-description">Если вы не можете прочитать этот текст, значит у вас, вероятно, помутнение зрения. Вам следует немедленно обратиться к офтальмологу для консультации.</p>
+            </div>
+            <div class="main-choice">
+                <div class="choice">Упс...</div>
+                <div class="choice">Кажется,</div>
+                <div class="choice">у</div>
+                <div class="choice">нас</div>
+                <div class="choice">что-то</div>
+                <div class="choice">сломалось...</div>
+            </div>
+        </div>
+        <div class="main-next">Proceed</div>
+    </main>
+    <footer>
+        <a class="footer-bottom-link" href="https://github.com/frontending" target="_blank">Frontending</a>
+        <p>© 2022</p>
+    </footer>
+    <script src="script-quiz.js"></script>
+</body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online-zoo</title>
+    <link rel="shortcut icon" href="../../assets/icon/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body1">
+    <header class="header">
+        <div class="header-content">
+            <a class="header-logo" href="../main/index.html">
+                <h1>PetStory online</h1>
+                <img src="../../assets/image/bamboo.svg" alt="bamboo" class="bamboo">
+            </a>
+            <div class="header-menu">
+                <ul class="header-menu-list">
+                    <li><a class="menu-about" href="../main/index.html">About</a></li>
+                    <li><a class="menu-map" href="#">Map</a></li>
+                    <li><a class="menu-zoos" href="#">Zoos</a></li>
+                    <li><a class="menu-donate menu-active" href="#">Donate</a></li>
+                    <li><a class="menu-contact" href="#">Contact us</a></li>
+                </ul>
+                <div class="header-copyr">
+                    <a class="header-copyr-txt" href="https://www.figma.com/file/ypzT9idgAILaSRVRmDAJxn/online-zoo-3-weeks" target="_blank">Designed by ©</a>
+                </div>
+            </div>
+            <div class="header-burger">
+                <span class="span1"></span>
+                <span class="span2"></span>
+                <span class="span3"></span>
+            </div>
+        </div>
+    </header>
+    <div class="hider"></div>
+    <main>
+        <div class="panda-background-wrapper">
+            <div class="panda-background">
+            </div>
+        </div>
+        <section class="help">
+            <div class="help-wrapper">
+                <h3>THE ZOO HAS OFFICIALLY REOPENED BUT WE STILL NEED YOUR HELP!</h3>
+                <h6>Even though the Zoo has been able to reopen, we are at a greatly reduced capacity with educational programs and public and private events cancelled or postponed for additional months. We need you now more than ever to help ensure that we overcome these challenges. We have been actively raising funds in the community, and we are grateful for the generosity.  But much more support is still needed, and we need your help! Please consider a gift today – no matter what size – to help us sustain our mission.</h6>
+                <p class="help-orange-txt">Donation Information</p>
+                <div class="help-content">
+                    <h2>Pick and feed a friend</h2>
+                    <h4>We know the animals bring you joy, and in these extraordinary times, we’re glad.</h4>
+                    <div class="help-panda">
+                        <p class="help-number">4</p>
+                        <p class="help-number-description">Panda diet for the day.</p>
+                    </div>
+                    <p class="help-amount-txt">Amount</p>
+                    <div class="help-progressbar">
+                        <div class="help-progressbar-point"></div>
+                        <div class="help-progressbar-point"></div>
+                        <div class="help-progressbar-point"></div>
+                        <div class="help-progressbar-point"></div>
+                        <div class="help-progressbar-point"></div>
+                        <div class="help-progressbar-point help-progressbar-active"></div>
+                        <div class="help-progressbar-point"></div>
+                        <div class="help-progressbar-point"></div>
+                    </div>
+                    <div class="help-progressbar-numbers">
+                        <p class="help-usd"><span>$</span>5000</p>
+                        <p class="help-usd"><span>$</span>2000</p>
+                        <p class="help-usd"><span>$</span>1000</p>
+                        <p class="help-usd"><span>$</span>500</p>
+                        <p class="help-usd"><span>$</span>250</p>
+                        <p class="help-usd help-usd-active"><span>$</span>100</p>
+                        <p class="help-usd"><span>$</span>50</p>
+                        <p class="help-usd"><span>$</span>25</p>
+                    </div>
+                    <input type="number" placeholder="Another amount" class="help-amount" value="100" onkeypress="if(this.value.length >= 4) return false;" />
+                    <form class="help-radio">
+                        <label class="help-label-monthly">
+                            <input type="radio" name="donate" class="help-radio-monthly">&nbsp;&nbsp;&nbsp;Monthly
+                            <div class="custom-monthly"></div>
+                        </label>
+                        <label class="help-label-once">
+                            <input type="radio" name="donate" class="help-radio-once" checked>&nbsp;&nbsp;&nbsp;Once
+                            <div class="custom-once custom-active"></div>
+                        </label>
+                    </form>
+                    <div class="help-btn">
+                        <p class="h5upper">Feed a friend now</p>
+                    </div>
+                    <p class="help-share">Share with your friends on social networks</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-wrapper">
+            <a class="footer-logo"  href="../main/index.html">
+                <p class="h5logo">PetStory online</p>
+                <img src="../../assets/image/bamboo.svg" alt="bamboo" class="bamboo bamboo-footer">
+            </a>
+            <div class="footer-subscribe">
+                <h4>Subscribe to our news</h4>
+                <form class="footer-form" action="">
+                    <input class="footer-email" type="email" placeholder="Enter your email" required />
+                    <input class="footer-submit" type="submit" value="Submit" />
+                </form>
+            </div>
+            <a class="footer-btn" href="../donate/index.html">
+                <p class="h5upper">donate for volunteers</p>
+            </a>
+            <div class="footer-media">
+                <a class="media1 media-wrapper" href="https://www.facebook.com/" target="_blank">
+                    <div class="media1-icon"></div>
+                    <p class="media1-txt">Facebook</p>
+                </a>
+                <a class="media2 media-wrapper" href="https://twitter.com/" target="_blank">
+                    <div class="media2-icon"></div>
+                    <p class="media2-txt">Twitter</p>
+                </a>
+                <a class="media3 media-wrapper" href="https://www.instagram.com/" target="_blank">
+                    <div class="media3-icon"></div>
+                    <p class="media3-txt">Instagram</p>
+                </a>
+                <a class="media4 media-wrapper" href="https://www.youtube.com/" target="_blank">
+                    <div class="media4-icon"></div>
+                    <p class="media4-txt">YouTube</p>
+                </a>
+            </div>
+            <div class="footer-menu">
+                <ul class="footer-menu-list">
+                    <li><a class="menu-about" href="../main/index.html">About</a></li>
+                    <li><a class="menu-map" href="#">Map</a></li>
+                    <li><a class="menu-zoos" href="#">Zoos</a></li>
+                    <li><a class="menu-contact" href="#">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="footer-txt">
+                <p>Designed by Alisa Samborskaya</p>
+                <p>©RSSchool & ©Yem Digital 2021</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
