@@ -1,30 +1,26 @@
-<div id="header" align="center">
-  <img src="https://media.giphy.com/media/ndM7oIOjaDQOhMKtF3/giphy.gif" width="120"/>
-</div>
-<div id="badges" align="center">
-<img src="https://komarev.com/ghpvc/?username=frontending&style=flat-square&color=blue" width="120" alt=""/>
-</div>
-<h1 align="center">
-  hey there
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
-</h1>
+<h2 align="center">
+Happy Farmer
+<a href="https://frontending.github.io/frontending/happy-farmer/index.html">[link]</a>
+</h2> 
 <div align="center">
-  <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="600" height="300"/>
+  <img src="https://imgur.com/saFmGbZ.png" width="600"/>
 </div>
 
+***
 
+## Happy Farmer
+> sorting with multiple conditions
 
-<!--
-**frontending/frontending** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+this project was created to train the skills of sorting a large number of elements with a variety of conditions and parameters
 
-Here are some ideas to get you started:
+### Getting started
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+click the [--> LINK <--](https://frontending.github.io/frontending/happy-farmer/index.html) to get started
+
+### Developing
+
+HTML, CSS, JavaScript, ES6, dynamic page generation, async function, delegation, extension operators, JSON database, local storage
+
+### Features
+
+responsive design, sorting with multiple conditions, search by name, add to favorite, saving results on refresh the page
