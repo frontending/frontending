@@ -1,30 +1,26 @@
-<div id="header" align="center">
-  <img src="https://media.giphy.com/media/ndM7oIOjaDQOhMKtF3/giphy.gif" width="120"/>
-</div>
-<div id="badges" align="center">
-<img src="https://komarev.com/ghpvc/?username=frontending&style=flat-square&color=blue" width="120" alt=""/>
-</div>
-<h1 align="center">
-  hey there
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
-</h1>
+<h2 align="center">
+Custom video player
+<a href="https://frontending.github.io/frontending/custom-video/index.html">[link]</a>
+</h2> 
 <div align="center">
-  <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="600" height="300"/>
+  <img src="https://imgur.com/dUzeGqA.png" width="600"/>
 </div>
 
+***
 
+## Custom video player
+> standard video elements were not used
 
-<!--
-**frontending/frontending** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+original fully customized video player
 
-Here are some ideas to get you started:
+### Getting started
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+click the [--> LINK <--](https://frontending.github.io/frontending/custom-video/index.html) to get started
+
+### Developing
+
+HTML, CSS, JavaScript, keyboard events
+
+### Features
+
+responsive design, fullscreen, custom video player with custom buttons, volume and progress controls, pause, mute, time, the ability to choose from several videos, keyboard controls (right and left arrows - rewind the video for 20 seconds, up and down arrows - volume control, F - fullscreen mode and exit it, spacebar - pause or start the video, S - stop playback, reset to the beginning of the video, M - turn off or turn back the sound, Esc - exit fullscreen mode)
