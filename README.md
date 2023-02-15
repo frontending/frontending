@@ -1,26 +1,30 @@
-<h2 align="center">
-Custom video player
-<a href="https://frontending.github.io/frontending/custom-video/index.html">[link]</a>
-</h2> 
-<div align="center">
-  <img src="https://imgur.com/dUzeGqA.png" width="600"/>
-</div>
+## Projects list
+
+
+#### a simple page that allows you to request pictures of your requirement:
+[--> image-gallery <--](https://github.com/frontending/frontending/tree/image-gallery)
 
 ***
 
-## Custom video player
-> standard video elements were not used
+#### sorting a large number of elements with a variety of conditions and parameters:
+[--> happy-farmer <--](https://github.com/frontending/frontending/tree/happy-farmer)
 
-original fully customized video player
+***
 
-### Getting started
+#### original fully customized video player:
+[--> custom-video <--](https://github.com/frontending/frontending/tree/custom-video)
 
-click the [--> LINK <--](https://frontending.github.io/frontending/custom-video/index.html) to get started
+***
 
-### Developing
+#### a game in which two players take turns in drawing either an 'O' or an 'X' in one square of a grid consisting of nine squares:
+[--> tic-tac-toe <--](https://github.com/frontending/frontending/tree/tic-tac-toe)
 
-HTML, CSS, JavaScript, keyboard events
+***
 
-### Features
+#### 2 pages of the site with a figma layout:
+[--> online-zoo <--](https://github.com/frontending/frontending/tree/online-zoo)
 
-responsive design, fullscreen, custom video player with custom buttons, volume and progress controls, pause, mute, time, the ability to choose from several videos, keyboard controls (right and left arrows - rewind the video for 20 seconds, up and down arrows - volume control, F - fullscreen mode and exit it, spacebar - pause or start the video, S - stop playback, reset to the beginning of the video, M - turn off or turn back the sound, Esc - exit fullscreen mode)
+***
+
+#### quiz about computer games:
+[--> quizmaster <--](https://github.com/frontending/frontending/tree/quizmaster)
