@@ -8,23 +8,12 @@
   hey there
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
 </h1>
-<div align="center">
-  <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="600" height="300"/>
-</div>
 
+### I'm studying frontend
+### Here are examples of my projects [[ --> CLICK <-- ]](https://github.com/frontending/frontending/tree/gh-pages)    
 
+### I train on codewars 
+[![Codewars Badge](https://www.codewars.com/users/frontending/badges/large)](https://www.codewars.com/users/frontending)
 
-<!--
-**frontending/frontending** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Certificate from RS-School [[link]](https://app.rs.school/certificate/o442ghlf)  
+<img src="https://raw.githubusercontent.com/frontending/frontending/main/o442ghlf.png" width="450" alt=""/>
