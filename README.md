@@ -17,3 +17,6 @@
 
 ### Certificate from RS-School [[link]](https://app.rs.school/certificate/o442ghlf)  
 <img src="https://raw.githubusercontent.com/frontending/frontending/main/o442ghlf.png" width="450" alt=""/>
+
+### Certificate from englishdom [[link]](https://www.englishdom.com/)  
+<img src="https://raw.githubusercontent.com/frontending/frontending/main/cert_pre_int.jpg" width="450" alt=""/>
